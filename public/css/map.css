@@ -1,0 +1,29 @@
+
+.map-container {
+    background: #E6F7FB;
+
+    border: 1px solid #DDE3F0;
+    border-radius: 2rem;
+
+    margin-top: 6.4rem;
+}
+
+.map-container .leaflet-container {
+    border-bottom: 1px solid #DDE3F0;
+    border-radius: 2rem;
+}
+
+.map-container footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.map-container footer a {
+    color: #0089A5;
+    text-decoration: none;
+}
+
+#mapid {
+    width: 100%;
+    height: 28rem;
+}
