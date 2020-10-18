@@ -88,7 +88,16 @@ function toggleSelect(event) {
 
     // verificar se é sim ou não
     input.value = button.dataset.value
-    
-    // retirar a class .active (dos botões)
 
+}
+
+function validateMapInput(event) {
+
+    const inputLat = document.querySelector('input[name="lat"]').value
+    const inputLng = document.querySelector('input[name="lng"]')
+
+    if(inputLat === '' || inputLng === '') {
+        alert('Selecione um ponto no mapa');
+        event.preventDefault(); //Não envia o formulário
+    }    
 }
