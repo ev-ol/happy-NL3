@@ -19,10 +19,11 @@ module.exports = {
             orphanage.images = orphanage.images.split(",")
             orphanage.firstImage = orphanage.images[0]
 
-            orphanage.open_on_weekends == "0" ? 
-                orphanage.open_on_weekends = false
-                :  
+            if(orphanage.open_on_weekends == "0") {
+                orphanage.open_on_weekends = false;
+            } else {  
                 orphanage.open_on_weekends = true;
+            }
 
             return res.render('orphanage', { orphanage })
 

@@ -77,14 +77,14 @@ function deleteField(event) {
 function toggleSelect(event) {
     
     // pegar o botão clicado
-    document.querySelectorAll('.button-select button').forEach( button => button.classList.remove('active') );
+    document.querySelectorAll('.button-select button').forEach( button => button.classList.remove("active") );
 
     // colocar a classe .active no botão clicado
     const button = event.currentTarget;
-    button.classList.add('active');
+    button.classList.add("active");
 
-    // atualizar o meu input hidden com o valor selecionados
-    const input = document.querySelector('[name="open-on-weekends"]');
+    // atualizar o meu input hidden com o valor selecionado
+    const input = document.querySelector('[name="open_on_weekends"]');
 
     // verificar se é sim ou não
     input.value = button.dataset.value
