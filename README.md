@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="https://github.com/vtorugo/happy-NL3/tree/master/public/images" />
+    <img alt="Happy" title="Happy" src="https://github.com/vtorugo/happy-NL3/tree/master/public/images/logo-black.svg"/>
 </h1>
 
 <p align="center">
-  <img alt="Happy-Desktop-Preview" src=".https://github.com/vtorugo/happy-NL3/tree/master/public/happy.png" width="100%">
+  <img alt="Happy-Desktop-Preview" src="https://github.com/vtorugo/happy-NL3/tree/master/public/happy.png" width="100%">
 </p>
 
 ## 📋 Índice
