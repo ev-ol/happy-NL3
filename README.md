@@ -80,4 +80,4 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para ace
 
 ---
 
-Desenvolvido com ❤️️ e 😡 por Victor Hugo.
+Não meça os outros com sua própria régua.
